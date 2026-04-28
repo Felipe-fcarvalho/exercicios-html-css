@@ -10,17 +10,17 @@
 <body>
     <div>
         <header>
-            <div id="text">
+            <div id="headerText">
                 <h1>Curiosidades de Tecnologia</h1>
                 <p style="max-width: 300px; margin: auto;">Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
             </div>
-            <nav>
-                <div id="menu">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Notícias</a></li>
-                        <li><a href="#">Curiosidades</a></li>
-                        <li><a href="#">Fale Conosco</a></li>
-                </div>
+            <nav aria-label="Menu principal">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Notícias</a></li>
+                    <li><a href="#">Curiosidades</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                </ul>
             </nav>
         </header>
     </div>
@@ -33,7 +33,7 @@
                 </div>
                 <div>
                     <h2>A primeira versão</h2>
-                    <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="https://www.tecmundo.com.br/software/34683-conheca-alguns-esbocos-feiosos-do-mascote-do-android-que-nao-vingaram.htm" target="_blank" class="link">Dan Morrill</a>. Ele conta que abriu o <a href="https://inkscape.org/release/inkscape-1.4.2/windows/64-bit/msi/dl/" target="_blank" class="link">Inkscape</a> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+                    <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="https://www.tecmundo.com.br/software/34683-conheca-alguns-esbocos-feiosos-do-mascote-do-android-que-nao-vingaram.htm" target="_blank" rel="noopener noreferrer" class="link">Dan Morrill</a>. Ele conta que abriu o <a href="https://inkscape.org/release/inkscape-1.4.2/windows/64-bit/msi/dl/" target="_blank" rel="noopener noreferrer" class="link">Inkscape</a> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
                     <picture>
                         <source media="(max-width: 767px)" srcset="imagens/dan-droids-pq.png" type="image/png">
                         <img src="imagens/dan-droids.png" alt="ilustração dos dan-droids">
@@ -42,7 +42,7 @@
                 </div>
                 <div>
                     <h2>Surge um novo mascote</h2>
-                    <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <a href="https://www.irinablok.com/" target="_blank" class="link">Irina Blok</a>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
+                    <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <a href="https://www.irinablok.com/" target="_blank" rel="noopener noreferrer" class="link">Irina Blok</a>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
                     <picture>
                         <source media="(max-width: 767px)" srcset="imagens/irina-blok-pq.jpg">
                         <img src="imagens/irina-blok.jpg" alt="Foto de perfil da Irina Blok">
@@ -52,13 +52,13 @@
                     <p>A principal inspiração para os traços do novo <span class="destaque">Bugdroid</span> veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do <span class="destaque">Google</span> e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
                 </div>
                 <div id="video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=HuQtGDXN7y87MC2l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=HuQtGDXN7y87MC2l" title="Vídeo de apresentação do mascote android" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div>
-                    <div id="lista">
+                    <div id="listaVersoes">
                         <h3>Quer aprender mais? </h3>
                         <p style="padding-top: 20px;">Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
-                        <ul>
+                        <ul id="androidList">
                             <li>1.5 - Cupcake</li>
                             <li>1.6 - Donut</li>
                             <li>3.0 - Eclair</li>
@@ -75,7 +75,7 @@
                             <li>9.0 - Pie</li>
                         </ul>
                         <p>Infelizmente, o <span class="destaque">Android Q</span> não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao <span class="destaque">Android 10.</span></p>
-                        <p>Acesse aqui o site <a href="https://en.wikipedia.org/wiki/Android_version_history" target="_blank" class="link">Android History</a> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
+                        <p>Acesse aqui o site <a href="https://en.wikipedia.org/wiki/Android_version_history" target="_blank" rel="noopener noreferrer" class="link">Android History</a> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
                     </div>
                     <div>
                         <p>Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema <span class="destaque">Android</span> e seu simpático mascote.</p>
