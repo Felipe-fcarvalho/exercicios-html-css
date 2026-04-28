@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #202020;
+    color: white;
+}
+
+header {
+    margin: 20px;
+    padding: 8px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+
+.containerFlex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2px 6px;
+}
+
+div a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+div a:hover {
+    text-decoration: underline;
+}
+
+img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+iframe {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 20px;
+}

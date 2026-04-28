@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio da Imagem Flexível</title>
+</head>
+<body>
+    <head>
+        <h1>Imagem Flexível</h1>
+    </head>
+    <p>Exercício para adicionar imagens de diferentes tamanhos que se adaptam ao tamanho da tela!</p>
+    <div>
+        <picture>
+            <source media="(max-width: 767px)" srcset="imagens/paisagem-p.png" type="image/png">
+            <source media="(max-width: 1023px)" srcset="imagens/paisagem-m.png" type="image/png">
+            <img src="imagens/paisagem-g.png" alt="Imagem flexível tamanho g">
+        </picture>
+    </div>
+</body>
+</html>
