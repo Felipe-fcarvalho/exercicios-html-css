@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Carattere', cursive;
+}
+
+html, body {
+    height: 100vh;
+    background-color: white;
+    font-family: var(--fonte1);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+
+header h1 {
+    font-family: var(--fonte2);
+    font-size: 5rem;
+    font-variant: small-caps;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+padding: 5rem;
+}
+
+section p {
+    padding-bottom: 2em;
+}
+
+.frases {
+    font-family: var(--fonte3);
+    font-size: 3em;
+    text-align: left;
+    color: black;
+    line-height: 2em;
+    padding: 16px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.duplo {
+    margin-top: 5rem;
+}
+
+#img01 {
+    background-image: url('imagens/background002.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0;
+}
+
+#img02 {
+    background-image: url('imagens/background001.jpg');
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.7);
+}
+
+.imagem p {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    color: white;
+}
