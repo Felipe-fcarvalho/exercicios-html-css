@@ -1,0 +1,24 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('imagens/espaco.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bloco {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#astro {
+    aspect-ratio: 1 / 1;
+}
