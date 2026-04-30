@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: url('imagens/background-social.jpg') no-repeat center / cover;
+}
+
+#iphone {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('imagens/frame-iphone.png') no-repeat center;
+}
+
+.tela {
+    position: absolute;
+    width: 270px;
+    height: 477px;
+    border-radius: 2px;
+    box-shadow: inset 0 0 5px 10px #f0f1f3;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+aside img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+aside img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
