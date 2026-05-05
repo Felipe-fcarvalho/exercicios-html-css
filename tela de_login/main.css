@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body, html {
+    background-image: linear-gradient(to bottom, purple, rgb(63, 172, 245));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.form {
+    padding: 24px;
+    display: block;
+}
+
+.form input {
+    margin: 10px 0px;
+    display: block;
+    width: 90%;
+    padding: 4px;
+}
+
+.form input::before {
+    background-color: aqua;
+}
+
+.imagem {
+    background: url(imagens/login.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 180px;
+}
+
+button {
+    padding: 8px;
+    display: inline-block;
+    margin-bottom: 4px;
+    width: 90%;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: blueviolet;
+    font-weight: bold;
+    
+}
+
+button:hover {
+    opacity: 80%;
+}
+
+.containerFlex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+span {
+    margin-right: 8px;
+}
+
+#secondary {
+    border-color: blueviolet;
+    border: 2px solid blueviolet;
+    color: blueviolet;
+    background-color: white;
+    font-weight: 400;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 24px 0px;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .form {
+        width: 80vw;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .imagem {
+        width: 30%;
+        height: 337px;
+        background: url(imagens/login.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        display: flex;
+        width: 70%;
+        height: 500px;
+        align-items: center;
+    }
+    
+    .imagem {
+        width: 50%;
+        height: 100%;
+        background: url(imagens/login.jpg) no-repeat;
+        background-size: contain;
+        background-position: center center;
+    }
+}
